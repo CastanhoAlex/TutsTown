@@ -1,0 +1,65 @@
+/*Este é o css do site Tuts*/
+body{
+	font-family: 'Open Sans', sans-serif; /*Font from google fonts*/
+	background-color: #FAF8DA;
+	margin: 0;
+
+}
+
+/*Header style*/
+header{
+	text-align: center; /*Centralized header*/
+}
+
+h1{
+	font size: 70px;
+	color:#205D76;
+}
+
+.header{
+	width: 650px; /*used to define the image size in the header one*/
+}
+
+/*Section start*/
+article{
+	display: flex; /*makes the element content flexible, (put elements next to each other)*/
+	margin: 50px auto; /*"auto" Adjust the element and centralizing accordind to the page.  */
+	width: 450px;
+}
+.article{
+	width: 200px;
+}
+
+div{
+	margin-left: 30px; /*this margin moves the image away from div*/
+}
+
+h2{
+	font-size: 30px;
+	color: #205D76;
+}
+
+ul{color: #FFC122;
+	padding-left: 15px;
+	}
+
+	li{
+		margin-bottom: 10px; /*to put some space between itens*/
+	}
+
+a{font-size: 20px;
+color: #EA6E;
+}
+
+/*footer*/
+
+footer{
+	background-color: #FFC122;
+	text-align: center;
+	padding: 2px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-size: 20px;
+	}
